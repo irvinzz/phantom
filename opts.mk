@@ -2,8 +2,8 @@ ifneq ($(SUFFIXES),)
 $(error missing -R make option)
 endif
 
-CXX = g++
-CC = gcc
+CXX = g++-5
+CC = gcc-5
 
 OPT ?= 3
 
